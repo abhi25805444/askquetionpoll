@@ -21,8 +21,7 @@ import androidx.constraintlayout.helper.widget.MotionEffect;
 import com.example.askquestionpoll.R;
 
 public class DaynamicSticker extends RelativeLayout {
-    Context context;
-    Activity activity;
+
     boolean isRelToched = false;
     EditText editText;
     ImageView imageView;
