@@ -79,7 +79,7 @@ public class DragLayout extends AppCompatActivity {
         super.dispatchTouchEvent(event);
         if (isRelToched) {
             dynamicLayout.dispatchTouchEvent(event);
-            Log.d(TAG, "is Toch");
+
             float rawX = event.getRawX();
             float rawY = event.getRawY();
             switch (event.getAction()) {
