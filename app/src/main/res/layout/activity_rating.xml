@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".RatingActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RatingBar Example"
+        android:textColor="@color/blue"
+        android:textSize="20sp" />
+
+    <RatingBar
+        android:id="@+id/rating1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:theme="@style/RatingBar1" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RatingBar Task"
+        android:textColor="@color/blue"
+        android:textSize="20sp" />
+
+    <RatingBar
+        android:id="@+id/rating2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:numStars="6"
+        android:theme="@style/RatingBar2" />
+
+    <RatingBar
+        android:id="@+id/rating3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:numStars="5"
+        android:rating="3.5"
+        android:theme="@style/RatingBar3" />
+
+    <RatingBar
+        android:id="@+id/rating4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:numStars="5"
+        android:rating="0"
+        android:theme="@style/RatingBar4" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating is : 0.0"
+        android:textSize="18sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating is : 3.5"
+        android:textSize="18sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating is : 0.0"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

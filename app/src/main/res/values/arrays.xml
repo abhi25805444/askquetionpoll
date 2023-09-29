@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options_array">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+    </string-array>
+
+    <array name="rangeofslider">
+        <item>20</item>
+        <item>70</item>
+    </array>
+</resources>

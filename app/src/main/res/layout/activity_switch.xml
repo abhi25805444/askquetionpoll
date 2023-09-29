@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".SwitchActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="Switch Button Example"
+        android:textColor="@color/blue"
+        android:textSize="20sp" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/btn_switch_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:checked="true"
+        app:thumbTint="@null"
+        android:theme="@style/SwitchTheme"
+        android:drawablePadding="10dp"
+        android:text="Switch Button 1   " />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_switch_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Switch ON"
+        android:textSize="14sp" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/btn_switch_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:text="Switch Button 2   " />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_switch_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Switch OFF"
+        android:textSize="14sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="Switch Button Task"
+        android:textColor="@color/blue"
+        android:textSize="20sp" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/btn_switch_3"
+        style="@style/SwitchTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:checked="true"
+        android:drawablePadding="10dp"
+        android:text="1. "
+        android:textColor="@color/black"
+        app:showText="true"
+        app:thumbTint="@color/white" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/btn_switch_4"
+        style="@style/SwitchTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:text="2. "
+        android:textColor="@color/black"
+        android:thumb="@drawable/baseline_mic_none_24" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/btn_switch_5"
+        style="@style/SwitchTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/red"
+        android:drawablePadding="10dp"
+        android:text="3. "
+        android:textColor="@color/black"
+        app:track="@drawable/apple_icon" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/btn_switch_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/red"
+        android:drawablePadding="10dp"
+        android:text="4. "
+        android:textColor="@color/black" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_switch_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Switch ON"
+        android:textSize="16sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_switch_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Switch OFF"
+        android:textSize="16sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_switch_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Switch OFF"
+        android:textSize="16sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_switch_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Switch OFF"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

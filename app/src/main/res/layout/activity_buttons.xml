@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonsActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/txtbtn"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buttons"
+            android:textColor="@color/blue"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_button_with_corner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Buttons with Corner"
+            android:textColor="@color/blue"
+            app:layout_constraintBottom_toTopOf="@id/corner_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtbtn" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/corner_btn"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:outlineAmbientShadowColor="@color/blue"
+            android:text="Buttons with Corner"
+            android:textAllCaps="false"
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_button_with_corner"
+            app:strokeColor="@color/dark_green"
+            app:strokeWidth="2dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_button_with_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Buttons with Shadow"
+            android:textColor="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/corner_btn" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_shadow"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:text="Button With Shadow"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="2dp"
+            app:elevation="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_button_with_shadow" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_button_with_ripple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Buttons with Ripple Color"
+            android:textColor="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_shadow" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_ripple"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/blue"
+            android:elevation="10dp"
+            android:text="Button With Ripple Color"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="8dp"
+            app:elevation="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_button_with_ripple"
+            app:rippleColor="@color/dark_green" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_simple_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Simple Button"
+            android:textColor="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_ripple" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_simple"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FF2400"
+            android:text="Simple Button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:cornerRadius="0dp"
+            app:elevation="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_simple_button" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_btn_with_left_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Button With Left Icon"
+            android:textColor="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_simple" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_lef_icon_button"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/purple"
+            android:text="Button"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:elevation="100dp"
+            app:icon="@drawable/icon_call"
+            app:iconPadding="20dp"
+            app:iconSize="24dp"
+            app:iconTint="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_btn_with_left_icon" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_btn_with_right_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Button With Right Icon"
+            android:textColor="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_lef_icon_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_right_icon_button"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/cyan"
+            android:text="Button"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/icon_call"
+            app:iconPadding="20dp"
+            app:iconGravity="end"
+            app:iconSize="24dp"
+            app:iconTint="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_btn_with_right_icon" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_btn_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Button Background Image"
+            android:textColor="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_right_icon_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_image"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/penguin"
+            android:text="Button"
+            android:textColor="@color/red"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_btn_image" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_btn_with_border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Button with Border Color"
+            android:textColor="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_image" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_with_border_button"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#90EE90"
+            android:text="Button With Border"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_btn_with_border"
+            app:strokeColor="@color/blue"
+            app:strokeWidth="4dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_btn_with_border_radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Button with Border Radius"
+            android:textColor="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_with_border_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_with_border_radious_button"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/purple"
+            android:text="Button With Radious Border"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_btn_with_border_radius"
+            app:strokeColor="@color/black"
+            app:strokeWidth="4dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_rounded_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Rounded Button"
+            android:textColor="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_with_border_radious_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_rounded_button"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_button"
+            android:gravity="center"
+            android:text="Button"
+            android:textColor="@color/black"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_rounded_button" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_ripple_with_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Rounded Button with Shadow"
+            android:textColor="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_rounded_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_shadow_with_ripple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:elevation="6dp"
+            android:padding="10dp"
+            android:shadowColor="@color/black"
+            android:text="Shadow with Ripple"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_ripple_with_shadow"
+            app:rippleColor="@color/dark_green" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#3366CC</color>
+    <color name="dark_green">#004600</color>
+    <color name="purple">#BF40BF</color>
+    <color name="cyan">#2EFFE8</color>
+    <color name="red">#FF0000</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="navyblue">#129c8f</color>
+
+    <color name="switchThumbTintChecked">#00C853</color>
+    <color name="switchTrackTintChecked">#B2FF59</color>
+    <color name="switchThumbTintUnchecked">#FF6E40</color>
+    <color name="switchTrackTintUnchecked">#FFCCBC</color>
+    <color name="parrot">#72c368</color>
+
+
+</resources>

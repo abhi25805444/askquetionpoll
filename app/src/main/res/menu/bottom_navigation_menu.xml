@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/icon_ui" android:id="@+id/item_bottom_nav_1" android:title="UI" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/icon_dailog"  android:id="@+id/item_bottom_nav_2" android:title="DAILOG"/>
+    <item android:icon="@drawable/icon_bottom_sheet" android:id="@+id/item_bottom_nav_3" android:title="SHEET"/>
+    <item android:icon="@drawable/icon_sder_menu" android:id="@+id/item_bottom_nav_4" android:title="SLIDER"/>
+</menu>

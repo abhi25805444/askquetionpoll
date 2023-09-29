@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AskQuestionPoll"
+        tools:targetApi="31">
+        <activity
+            android:name=".DragLayout"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Programtic_layout"
+            android:exported="false"></activity>
+        <activity
+            android:name=".ScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/Theme.AskQuestionPoll.NoActionBar" />
+        <activity
+            android:name=".RecycleView_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".Animation_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.collaps"
+            android:exported="false"
+            android:label="@string/title_activity_collaps"
+            android:theme="@style/Theme.AskQuestionPoll.NoActionBar" />
+        <activity
+            android:name=".fragment.collapsing_toolbar"
+            android:exported="false" />
+        <activity
+            android:name=".specforfrag"
+            android:exported="false" />
+        <activity
+            android:name=".bottomsheet"
+            android:exported="false" />
+        <activity
+            android:name=".Bottom_Nav_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".dailogScreen"
+            android:exported="false" />
+        <activity
+            android:name=".cardView"
+            android:exported="false" />
+        <activity
+            android:name=".seekBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".snackbarActvity"
+            android:exported="false" />
+        <activity
+            android:name=".ToastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimerPickerScreeen"
+            android:exported="false" />
+        <activity
+            android:name=".DatePickerScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SpinnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RatingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SwitchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RadiobuttonsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckboxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditextActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImagesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ButtonsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Module4_Screen1"
+            android:exported="false" />
+        <activity
+            android:name=".interfacedemo"
+            android:exported="false" />
+        <activity
+            android:name=".Module4_Screen2"
+            android:exported="false" />
+        <activity
+            android:name=".LinearLayout"
+            android:exported="false" />
+        <activity
+            android:name=".Intentexample"
+            android:exported="false" />
+        <activity
+            android:name=".Tiptime"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

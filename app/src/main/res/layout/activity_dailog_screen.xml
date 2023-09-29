@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".dailogScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+      <com.google.android.material.textview.MaterialTextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="20dp"
+          android:gravity="center"
+          android:text="Single Choice Dialog"
+          android:textColor="@color/blue"
+          android:textSize="25sp" />
+      <com.google.android.material.button.MaterialButton
+          android:id="@+id/singledailog"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:text="Single Choice Dialog "
+          android:textColor="@color/black"
+          android:textSize="15sp"
+          />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="Multi Choice Dailog"
+            android:textColor="@color/blue"
+            android:textSize="25sp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/multichice_dailog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Multi Choice Dailog"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="Custom Dailog"
+            android:textColor="@color/blue"
+            android:textSize="25sp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/custom_dailog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Custom Dailog"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="Option Dailog"
+            android:textColor="@color/blue"
+            android:textSize="25sp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/option_dailog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Option Dailog"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="Prograce Bar"
+            android:textColor="@color/blue"
+            android:textSize="25sp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/progracebar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Progress Bar 1"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+      <com.google.android.material.textview.MaterialTextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="20dp"
+          android:gravity="center"
+          android:text="Download Prograce Bar"
+          android:textColor="@color/blue"
+          android:textSize="25sp" />
+      <com.google.android.material.button.MaterialButton
+          android:id="@+id/progracebar2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:text="Download Prograce Bar"
+          android:textColor="@color/black"
+          android:textSize="15sp"
+          />
+      <com.google.android.material.textview.MaterialTextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="20dp"
+          android:gravity="center"
+          android:text="Download Prograce Bar 2"
+          android:textColor="@color/blue"
+          android:textSize="25sp" />
+      <com.google.android.material.button.MaterialButton
+          android:id="@+id/progracebar3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:text="Download Prograce Bar 2"
+          android:textColor="@color/black"
+          android:textSize="15sp"
+          />
+
+    </LinearLayout>
+
+</ScrollView>

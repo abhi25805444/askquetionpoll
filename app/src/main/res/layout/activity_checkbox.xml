@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckboxActivity">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      <com.google.android.material.textview.MaterialTextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Check Box Example"
+          android:layout_gravity="center"
+          android:layout_marginTop="30dp"
+          android:textSize="25sp"
+          android:textColor="@color/blue"/>
+      <com.google.android.material.textview.MaterialTextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Select Hobby"
+          android:layout_gravity="center"
+          android:layout_marginTop="35dp"
+          android:textSize="25sp"
+          android:textColor="@color/black"/>
+
+      <com.google.android.material.checkbox.MaterialCheckBox
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/red"
+          android:id="@+id/reading_checkbox"
+          android:text="Reading"
+          />
+      <com.google.android.material.checkbox.MaterialCheckBox
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/red"
+          android:button="@null"
+          android:id="@+id/caroom_chekbox"
+          android:drawableLeft="@drawable/select_checkbox"
+          android:text="Carrom"
+          />
+      <com.google.android.material.checkbox.MaterialCheckBox
+          android:id="@+id/writing"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:button="@null"
+          android:drawableRight="@drawable/rightsidecheckbox"
+          android:text="Writing"
+          android:textColor="@color/red" />
+      <com.google.android.material.checkbox.MaterialCheckBox
+          android:id="@+id/basketballcheckbox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/red"
+          android:text="Basket Ball"
+          />
+      <com.google.android.material.checkbox.MaterialCheckBox
+          android:id="@+id/dancecheckbox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/red"
+          android:text="Dance"
+          />
+
+      <com.google.android.material.textview.MaterialTextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Select Depaetment"
+          android:layout_gravity="center"
+          android:layout_marginTop="35dp"
+          android:textSize="25sp"
+          android:textColor="@color/black"/>
+
+      <RadioGroup
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <com.google.android.material.checkbox.MaterialCheckBox
+              android:id="@+id/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Android"
+              android:textColor="@color/red" />
+
+          <com.google.android.material.checkbox.MaterialCheckBox
+              android:id="@+id/web"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Web Designing"
+              android:textColor="@color/red" />
+
+          <com.google.android.material.checkbox.MaterialCheckBox
+              android:id="@+id/php"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="PHP"
+              android:textColor="@color/red" />
+      </RadioGroup>
+
+      <com.google.android.material.button.MaterialButton
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/btn_display"
+          android:layout_gravity="center"
+          android:text="Display"/>
+      <com.google.android.material.textview.MaterialTextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Selected Iteam"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dp"
+          android:textSize="25sp"
+          android:textColor="@color/blue"/>
+      <com.google.android.material.textview.MaterialTextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:layout_marginTop="20dp"
+          android:textSize="25sp"
+          android:id="@+id/result"/>
+
+  </LinearLayout>
+
+
+  </ScrollView>

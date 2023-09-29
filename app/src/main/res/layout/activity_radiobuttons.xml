@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".RadiobuttonsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Radio Button Example"
+            android:textColor="@color/blue"
+            android:textSize="23sp" />
+
+        <LinearLayout
+            android:id="@+id/radiogroup1to3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:text="Button 1" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="Button 2" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radio3"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:text="Button 3" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rdiougroup4to6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button 4" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radio5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button 5" />
+
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radio6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button 6" />
+        </RadioGroup>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Radio Button inside RadioGroup"
+            android:textColor="@color/blue"
+            android:textSize="23sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/radiogroupstate1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/gujrat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gujarat" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/bhopal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bhopal" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/delhi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delhi" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radiogroupstate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/bihar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bihar" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/assam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Assam" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/diu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diu" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radiogroupstate3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/daman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Daman" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/ajmer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ajmer" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/ladakh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ladakh" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Display" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/displaytxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text=" "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/displaytxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text=" "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/displaytxt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text=" "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/displaytxt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text=" "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/displaytxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text=" "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+
+</ScrollView>

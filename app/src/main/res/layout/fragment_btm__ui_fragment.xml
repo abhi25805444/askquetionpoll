@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.Btm_Ui_fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buttons"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_image_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image View"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_screen" />
+
+        <Button
+            android:id="@+id/btn_edittext_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_image_screen" />
+
+        <Button
+            android:id="@+id/btn_checkbox_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Box"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_edittext_screen" />
+
+        <Button
+            android:id="@+id/btn_radiou_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radio Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_checkbox_screen" />
+
+        <Button
+            android:id="@+id/btn_switch_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switch Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_radiou_screen" />
+
+        <Button
+            android:id="@+id/btn_rating_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ratings"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_switch_screen" />
+
+        <Button
+            android:id="@+id/btn_spinner_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spinner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_rating_screen" />
+
+        <Button
+            android:id="@+id/btn_datepicker_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date Picker"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_spinner_screen" />
+
+        <Button
+            android:id="@+id/btn_time_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time Picker"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_datepicker_screen" />
+
+        <Button
+            android:id="@+id/btn_toast_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toast Screen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_time_screen" />
+
+        <Button
+            android:id="@+id/btn_snackbar_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snackbar Screen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_toast_screen" />
+
+        <Button
+            android:id="@+id/btn_seeekbar_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slider Screen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_snackbar_screen" />
+
+        <Button
+            android:id="@+id/btn_cardview_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cardview Screen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_seeekbar_screen" />
+        <Button
+            android:id="@+id/btn_dailog_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dailog Screen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_cardview_screen" />
+        <Button
+            android:id="@+id/btn_bottom_navi_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom NAvigation Bar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_dailog_screen" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>

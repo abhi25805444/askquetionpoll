@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f3fc"
+    tools:context=".Module4_Screen2"
+    tools:ignore="ExtraText">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_hello_again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="Hello Again!"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/txt_missed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:maxLines="2"
+                android:text="Wellcome back You've\nbeen missed!"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_hello_again"
+                tools:ignore="MissingConstraints" />
+            <EditText
+                android:id="@+id/edittxt_username"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/roundend_edit_text"
+                android:hint="Enter username"
+                android:padding="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_missed" />
+            <EditText
+                android:id="@+id/edittxt_password"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundend_edit_text"
+                android:drawableEnd="@drawable/baseline_remove_red_eye_24"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/edittxt_username" />
+            <TextView
+                android:id="@+id/txt_recovery_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:maxLines="2"
+                android:text="Recovery Password"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/edittxt_password"
+                app:layout_constraintTop_toBottomOf="@id/edittxt_password"
+                tools:ignore="MissingConstraints" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_singin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/roundend_signin_btn"
+                android:elevation="10dp"
+                android:text="Sign In"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_recovery_pass" />
+            <LinearLayout
+                android:id="@+id/linearlayout_continue_with"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_singin">
+                <View
+                    android:layout_width="70dp"
+                    android:layout_height="1dp"
+                    android:background="@drawable/diveder_first_part"
+                    tools:ignore="MissingConstraints" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="or continue with" />
+                <View
+                    android:layout_width="70dp"
+                    android:layout_height="1dp"
+                    android:background="@drawable/diveder_second_part"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearlayout_other_sing_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linearlayout_continue_with">
+
+                <ImageButton
+                    android:layout_width="90dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/login_icon"
+                    android:padding="50dp"
+                    android:src="@drawable/google_icon" />
+
+                <ImageButton
+                    android:layout_width="90dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/login_icon"
+                    android:padding="40dp"
+                    android:src="@drawable/apple_icon" />
+
+                <ImageButton
+                    android:layout_width="90dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/login_icon"
+                    android:padding="40dp"
+                    android:src="@drawable/facebook_icon" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_not_a_member"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linearlayout_other_sing_in">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:text="Not a member?" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Register now"
+                    android:textColor="#7baff1" />
+
+            </LinearLayout>
+
+            <Space
+                app:layout_constraintTop_toBottomOf="@id/linearlayout_not_a_member"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

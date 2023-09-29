@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    tools:context=".seekBarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SeekBar Example"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slide1"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:valueFrom="0"
+            android:valueTo="100"
+            android:labelFor="@id/slide1"
+            app:labelBehavior="withinBounds" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/blue"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SeekBar Example"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/seekbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:stepSize="5"
+            android:value="0"
+            android:valueFrom="0"
+            android:valueTo="100"
+            app:thumbColor="#238ae6"
+            app:tickColor="#13161d"
+            app:trackColorActive="#238ae6"
+            app:trackColorInactive="#a7bada" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="start"
+                android:text="0.0%"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="end"
+                android:text="0.0%/100"
+                android:textSize="20sp" />
+        </FrameLayout>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SeekBar Task Example"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+        <com.google.android.material.slider.RangeSlider
+            android:id="@+id/seekbar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="0"
+            android:valueTo="100"
+            app:values="@array/rangeofslider" />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SeekBar Example min-value 20"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+        <com.google.android.material.slider.Slider
+            android:id="@+id/seekbar4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:valueFrom="0"
+            android:value="20"
+            android:valueTo="100"
+            app:labelBehavior="withinBounds" />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SeekBar Example max-value 80"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+        <com.google.android.material.slider.Slider
+            android:id="@+id/seekbar5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:valueFrom="0"
+            android:value="20"
+            android:valueTo="80"
+            android:thumb="@null"
+            app:thumbColor="@android:color/transparent"
+            app:tickColor="#B7410E"
+            app:trackColorActive="#B7410E"
+            app:trackColorInactive="#f8a266"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

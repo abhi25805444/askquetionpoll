@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:layout_marginTop="8dp"
+    tools:context=".Animation_Screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_fade_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Fade In"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_fade_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Fade Out"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txt_blink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Blink"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txt_zoom_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Zoom In"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txt_zoom_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Zoom Out"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txt_routet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Rotate"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Move"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_slideup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Slide Up"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txt_slidedown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Slide Down"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txt_bounce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Bounce"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txt_sequentialanimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Sequential Animation"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txt_together"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Together Animation"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

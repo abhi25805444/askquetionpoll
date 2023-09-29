@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatePickerScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Date Picker Example"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+        <DatePicker
+            android:id="@+id/datepicker1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/display1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txtdisplay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display"
+            android:visibility="gone" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Dailog Base Date Picker"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dailod_datepicker"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Click for The Choose Date"
+            android:layout_gravity="start"
+            android:textSize="20sp" />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Spinner Date Picker"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Spinner_datepicker"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="Click for The Choose Date"
+            android:layout_gravity="start"
+            android:textSize="20sp" />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Date Range Picker Example"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dailog_rangepicker"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Click for The Choose Date"
+            android:layout_gravity="start"
+            android:textSize="20dp" />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Calander Date Picker"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/calandor_rangepicker"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Click for The Choose Date"
+            android:layout_gravity="start"
+            android:textSize="20sp" />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Calander Date Picker 2"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/calandor_cal2"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Click for The Choose Date"
+            android:layout_gravity="start"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
