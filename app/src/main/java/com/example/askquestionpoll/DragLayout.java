@@ -35,9 +35,6 @@ public class DragLayout extends AppCompatActivity {
         imageView = new ImageView(this);
         dynamicLayout = new DaynamicSticker(this, relativeLayout, editText, imageView);
         editText.setLongClickable(false);
-
-
-
         editText.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
@@ -62,7 +59,6 @@ public class DragLayout extends AppCompatActivity {
                 }
             }
         });
-
         relativeLayout.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
@@ -83,7 +79,7 @@ public class DragLayout extends AppCompatActivity {
         super.dispatchTouchEvent(event);
         if (isRelToched) {
             dynamicLayout.dispatchTouchEvent(event);
-            Log.d(TAG, "is Relized Toch");
+
             float rawX = event.getRawX();
             float rawY = event.getRawY();
             switch (event.getAction()) {
@@ -96,8 +92,6 @@ public class DragLayout extends AppCompatActivity {
         } else {
             return true;
         }
-
-
     }
 
 }
