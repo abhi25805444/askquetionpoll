@@ -40,7 +40,7 @@ public class DragLayout extends AppCompatActivity {
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 switch (motionEvent.getAction()) {
                     case MotionEvent.ACTION_DOWN:
-                        Log.d(TAG, "Editext is toached");
+                        Log.d(TAG, "Editext is ");
                         long unused = LastTouchTime = System.currentTimeMillis();
                         isRelToched = true;
                         return true;
@@ -70,12 +70,12 @@ public class DragLayout extends AppCompatActivity {
     }
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        Log.d(TAG, "Activity class onTouchEvent: ");
+        Log.d(TAG, "Activity  onTouchEvent: ");
         return super.onTouchEvent(event);
     }
     @Override
     public boolean dispatchTouchEvent(MotionEvent event) {
-        Log.d(TAG, " Activity dispatchTouchEvent: " + super.dispatchTouchEvent(event));
+        Log.d(TAG, " Activity : " + super.dispatchTouchEvent(event));
         super.dispatchTouchEvent(event);
         if (isRelToched) {
             dynamicLayout.dispatchTouchEvent(event);
