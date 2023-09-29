@@ -21,8 +21,7 @@ import androidx.constraintlayout.helper.widget.MotionEffect;
 import com.example.askquestionpoll.R;
 
 public class DaynamicSticker extends RelativeLayout {
-    Context context;
-    Activity activity;
+
     boolean isRelToched = false;
     EditText editText;
     ImageView imageView;
@@ -95,7 +94,7 @@ public class DaynamicSticker extends RelativeLayout {
 
     public void loadLayout()
     {
-        Log.d(TAG, "loadLayout: is called");
+        Log.d(TAG, ":all is called");
         relativeLayout.setBackgroundColor(getContext().getColor(R.color.navyblue));
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(600, 600);
         CurrebtWidth = 1000;
