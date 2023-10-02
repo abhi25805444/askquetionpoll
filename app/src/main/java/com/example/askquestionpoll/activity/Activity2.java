@@ -19,7 +19,7 @@ public class Activity2 extends AppCompatActivity {
         Intent i = getIntent();
         String Activity = i.getStringExtra("activity");
         Intent intent = getIntent();
-        String return1 = intent.getStringExtra("Fragment");
+        String return1 = intent.getStringExtra("Fragm");
         if (return1 != null) {
             textView.setText("previous activity is " + return1);
         } else {
