@@ -111,7 +111,7 @@ public class DaynamicSticker extends RelativeLayout {
         imageView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
         imageView.setImageResource(R.drawable.ask_question_logo);
         imageView.setId(View.generateViewId());
-        Log.d(TAG, "Height of image" + imageView.getHeight());
+        Log.d(TAG, "Height of images" + imageView.getHeight());
         relativeLayout.setId(View.generateViewId());
         Log.d(TAG, "ID of Rev" + relativeLayout.getId());
         editText.setLayoutParams(editTextParams);
